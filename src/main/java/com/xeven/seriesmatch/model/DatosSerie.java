@@ -2,7 +2,7 @@ package com.xeven.seriesmatch.model;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 @JsonIgnoreProperties(ignoreUnknown = true) //para q no mapee todos los demas atributos q vienen de la api, los ignore
 public record DatosSerie(
