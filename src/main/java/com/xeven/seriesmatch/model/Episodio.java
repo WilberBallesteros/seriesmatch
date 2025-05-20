@@ -1,6 +1,5 @@
 package com.xeven.seriesmatch.model;
 
-import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 
@@ -26,8 +25,6 @@ public class Episodio {
         } catch (DateTimeParseException e) {
             this.fechaDeLanzamiento = null;
         }
-
-
     }
 
 
